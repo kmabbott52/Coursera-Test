@@ -1,5 +1,5 @@
 html{
-	background-image: url("background.jpg");
+	background: url("background.jpg") no-repeat;
 }
 header > ul {
 	list-style-type: none;
