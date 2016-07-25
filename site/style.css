@@ -1,9 +1,12 @@
-header {
-	background-color:gray;
+header > a {
+	background-color: #ddddee;
+	border-style: solid;
+	border-color: #999944;
 	font-size: 130%;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #999944;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	width: 100px;
 }
