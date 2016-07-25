@@ -4,18 +4,9 @@ html{
 }
 header li {
 	list-style: none;
-	margin: 0;
-	padding: 0;
-	background-color: #aacc99;
-	font-size: 130%;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #999944;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
 	width: 100px;
 	text-align: center;
-	margin: 3px;
+	margin: 10px;
 }
 a:link, a:visited {
 	text-decoration: none;
@@ -24,6 +15,7 @@ a:link, a:visited {
 	color: black;
 	text-align: center;
 	margin-bottom: 2px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 a:hover, a:active{
 	border: 2px black;
