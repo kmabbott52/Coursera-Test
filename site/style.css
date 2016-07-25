@@ -1,10 +1,11 @@
 html{
 	background-color: #ddddee;
 }
-header > a {
+header > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	background-color: #ddddee;
-	border-style: solid;
-	border-color: #999944;
 	font-size: 130%;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #999944;
