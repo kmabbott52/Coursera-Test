@@ -6,7 +6,7 @@ header > ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: #ddddee;
+	background-color: #aacc99;
 	font-size: 130%;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #999944;
@@ -20,5 +20,6 @@ header > ul {
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #cc5533;
+	background-color: #aacc99;
 	text-align: center;
 }
