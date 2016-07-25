@@ -1,11 +1,10 @@
 html{
-	background-color: #ddddee;
+	background-image: url("background.jpg");
 }
 header > ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-image: url("background.jpg");
 	background-color: #ddddee;
 	font-size: 130%;
 	font-family: Arial, Helvetica, sans-serif;
