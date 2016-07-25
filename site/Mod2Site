@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HPage Heading</title>
+</head>
+<body>
+<h1>Section 1</h1>
+<section>Text text text</section>
+<h1>Section 2</h1>
+<section>Text text text</section>
+<h1>Section 3</h1>
+<section>Text text text</section>
+</body>
+</html>
