@@ -1,9 +1,10 @@
+<style>
 html{
 	background-image: url("background.jpg"); 
 	height: 50px;
 }
-header > ul {
-	list-style-type: none;
+header li {
+	list-style: none;
 	margin: 0;
 	padding: 0;
 	background-color: #aacc99;
@@ -17,9 +18,16 @@ header > ul {
 	text-align: center;
 	margin: 3px;
 }
+a:link, a:visited {
+	text-decoration: none;
+	background-color:green;
+	border: 1px solid blue;
+	color: black;
+}
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
-	color: #cc5533;
+	color: #77aa99;
 	background-color: #aacc99;
 	text-align: center;
 }
+</style>
