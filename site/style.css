@@ -28,5 +28,10 @@ h1 {
 h2 {
 	color: #47665b;
 	background-color: #aacc99;
+	text-align: center;
+}
+p {
+	color: #47665b;
+	background-color: #aacc99;
 	text-align: left;
 }
