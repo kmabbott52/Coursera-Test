@@ -9,8 +9,10 @@
 section{
 	background-color: gray;
 	font-color: green;
+	border: 1px;
 }
 
 h1{
 	font-size: 20px;
+
 }
