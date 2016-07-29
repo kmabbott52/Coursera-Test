@@ -3,9 +3,10 @@
 	margin:0;
 	padding:0;
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: gray;
 }
 
-section{
+#section {
 	background-color: gray;
 }
 
