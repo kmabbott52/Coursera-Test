@@ -41,6 +41,15 @@ h2{
 	text-align: center
 }
 
+.chicken{
+	background-color: #FA7F72;
+}
+.beef{
+	background-color: #D95548;
+}
+.sushi{
+	background-color: #B73325;
+}
 .section{
 	float: none;
 	position: relative;
