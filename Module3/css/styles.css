@@ -1,99 +1,106 @@
 html{
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after{
-	box-sizing: inherit;
-	font-family: Arial, Helvetica, sans-serif;
-	margin:0;
-	padding:0;
+  box-sizing: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
 }
 
 body {
   font-size: 16px;
-  background-color: white;
+  border-color: white;
 }
 
 #header-nav{
-	background: #d3d3d3;
-	border: 2px solid black;
-	border-radius: 0
+  background: #d3d3d3;
+  border: 2px solid black;
+  border-radius: 0
 }
 
-.navbar-brand { /* Food, LLC */
+.navbar-default .navbar-brand { /* Food, LLC */
   font-weight: bold;
   font-size: 30px;
-  clear:both;
   color:black;
 }
 
-#header-nav > div > h1 {
-	color:black;
-}
-
-button.navbar-toggle{
-  border: 1px solid black;
-  margin-top:-30px;
+.navbar-default .navbar-collapse{
+  line-height: 1;
 }
 
 .navbar-nav{
-	border:2px;
+  border:2px;
 }
 
 .navbar-toggle {
-	clear:both;
+  clear:both;
+}
+
+.navbar-default .navbar-toggle{
+  background-color: #d3d3d3;
+  border: 2px solid #f1f1f1;
+}
+
+.navbar-default .collapsed{
+  border: 2px solid black;  
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #f1f1f1;
+}
+
+.navbar-default .collapsed .icon-bar{
+  background-color: black;
 }
 
 #nav-list {
-  margin-top: 10px;
-  border: 0.5px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #nav-list a {
   color:black;
   text-align: center;
-  border: 0.5px solid black;
+  border: 2px solid black;
 }
 
-#nav-list a:nth-child(2){
-	border-width:0px 1px 0px 1px;
+#nav-list a:nth-child(1){
+  border-width: 2px 0px 0px 0px;
 }
 
 #nav-list a:link{
-	background: white;
+  background: white;
 }
 
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #d3d3d3;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
 #main-content{
-	margin-bottom:60px;
+  margin-bottom:60px;
 }
 #Our-Menu {
-	text-align: center;
-	color: black;
-	font-weight:bold;
+  text-align: center;
+  color: black;
+  font-weight:bold;
 }
 
 #Chicken{
-	clear:both;
-	background-color: #d3d3d3;
-	color:black;
-	height: 1000px;
-	padding: 30px;
-	margin:20px 0 0 20px;
-	text-align: justify;
+  clear:both;
+  background-color: #d3d3d3;
+  color:black;
+  height: 1000px;
+  padding: 30px;
+  margin:20px 0 0 20px;
+  text-align: justify;
 }
 
 #Chicken h3{
-	text-align:center;
-	margin-top: -10px;
-	margin-bottom: 15px;
-}
-
-button .navbar-toggle{
-	background:white;
+  text-align:center;
+  margin-top: -10px;
+  margin-bottom: 15px;
 }
